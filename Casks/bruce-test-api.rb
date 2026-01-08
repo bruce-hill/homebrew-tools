@@ -3,7 +3,7 @@ cask "bruce-test-api" do
   name "bruce-test-api"
   desc "The best test CLI."
   homepage "https://bruce-hill.com"
-  version "0.3.0"
+  version "0.4.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -18,22 +18,22 @@ cask "bruce-test-api" do
   on_macos do
     on_intel do
       url "https://github.com/bruce-hill/bruce-test-api-cli/releases/download/v#{version}/bruce-test-api_#{version}_macos_amd64.zip"
-      sha256 "6fd814cee414ebde7ba3639140d62d9e02510090c2118cd6332be4a766418bbc"
+      sha256 "7cc1aa6a0dd747c2f965bab22d6998bfbf0b5c893acd3a7a77b25f73bb0d65aa"
     end
     on_arm do
       url "https://github.com/bruce-hill/bruce-test-api-cli/releases/download/v#{version}/bruce-test-api_#{version}_macos_arm64.zip"
-      sha256 "1ce4ea39e25c35058c129e3b53c0f09a8bffce8fa76a82c7ab840d93fa766259"
+      sha256 "ef16b0071855c8374c23d6844b029f2abe8d287b72f34c74baf1d4cb115b5841"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/bruce-hill/bruce-test-api-cli/releases/download/v#{version}/bruce-test-api_#{version}_linux_amd64.tar.gz"
-      sha256 "f961975ec90c4ef2297de2f403d9ea378e470a4e1098d77df1dfa28430aeb3f8"
+      sha256 "ad7ae4726a45dd46a0bbd602f7efb818881e6c3724aa97f1534a572db9178241"
     end
     on_arm do
       url "https://github.com/bruce-hill/bruce-test-api-cli/releases/download/v#{version}/bruce-test-api_#{version}_linux_arm64.tar.gz"
-      sha256 "41ba0272aaf112e0b5474ceec8dc914020a0b83806530a57097901dafaf22534"
+      sha256 "cc9b950d37b5423c18e36bda0117b0b9c9d0fad0de5476470e93e1bc851ec15e"
     end
   end
 
